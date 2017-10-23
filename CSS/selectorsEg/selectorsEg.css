@@ -1,0 +1,15 @@
+/*descentdant selector (one that comes after)*/
+li a {
+
+}
+
+/*adjacent selector (same level sibling elements)*/
+li + a
+
+/*attribute selector (based on attributes)*/
+a[href="http://www.google.com"]
+
+/*nth of type (every nth of particular element*/
+ul:nth-of-type(3){
+	
+}

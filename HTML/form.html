@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+
+<h1>Login</h1>
+<!-- action where the form send data to -->
+<!-- what http method (get/post) -->
+<!-- name appears in query string -->
+<!-- label good for visually impaired -->
+
+<!-- using nesting with labels -->
+<!-- <form action="http://wikipedia.org" method="get">
+	
+	<label>
+		Username:
+		<input type="text" name="username" placeholder="username">
+	</label>
+	
+	<label>
+		Password:
+		<input type="password" name="password" placeholder="password">
+	</label>
+	
+	<input type="Submit" name="">
+</form> -->
+
+<!-- not nesting but using "for" and "id" -->
+<!-- <form action="http://wikipedia.org" method="get">
+	
+	<label for="email">Email:</label>
+	<input id="email" type="email" name="email" placeholder="email" required>
+	
+	
+	<label for="password">Password:</label>
+	<input id="password" type="password" name="password" placeholder="password" required>
+	
+	
+	<input type="Submit" name="">
+
+
+</form> -->
+<!-- validation - can check if field is empty like required attribute or data type e.g. email type-->
+
+<!-- radio button tag 1 choice-->
+<!-- select tag list-->
+<!-- textarea tag-->
+
+<p>Do you prefer cats of dogs?</p>
+<form>
+	<label for="dogs">Dogs:</label>
+	<input id="dogs" name="petChoice" type="radio" value="dogs">
+	<!-- value to refer to what selected means -->
+
+	<label for="cats">Cats:</label>
+	<input id="cats" name="petChoice" type="radio" value="cats">
+
+	<p>What's your current mood?</p>
+	<select name="mood">
+		<option value="happy">:)</option>
+		<option value="neutral">:|</option>
+		<option value="sad">:(</option>
+	</select>
+
+	<textarea rows="10" cols="10" name="paragraph">
+		
+	</textarea>
+
+	<button>Go!</button>
+</form>
+
+
+</body>
+</html>

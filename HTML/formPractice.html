@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Practice</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+<!-- can also use divs instead of br -->
+	<label for="firstName">First Name:</label>
+	<input id="firstName" type="text" name="firstName" required placeholder="First Name">
+
+	<label for="lastName">Last Name:</label>
+	<input id="lastName" type="text" name="lastName" required placeholder="Last Name">
+<br>
+	<label for="male">Male</label>
+	<input id="male" type="radio" name="gender" value="male">
+
+	<label for="female">Female</label>
+	<input id="female" type="radio" name="gender" value="female">
+
+	<label for="other">Other</label>
+	<input id="other" type="radio" name="gender" value="other">
+
+	<label for="email">Email:</label>
+	<input id="email" type="email" name="email" placeholder="example@email.com" required>
+<!-- can also use pattern attribute for length -->
+	<label for="password">Password:</label>
+	<input id="password" type="password" name="password" maxlength="10" minlength="5" requied title="5 to 10 characters">
+<br>
+	<label for="birthday">Birthday:</label>
+	<select name="month">
+		<option>Month</option>
+		<option>January</option>
+		<option>February</option>
+	</select>
+	<select name="day">
+		<option>Day</option>
+		<option>01</option>
+		<option>02</option>
+	</select>
+	<select name="year">
+		<option>Year</option>
+		<option>1993</option>
+		<option>1994</option>
+	</select>
+<br>
+	<label for="agree">I agree to the terms and conditions</label>
+	<input id="agree" type="checkbox" name="agree" value="agree">
+<br>
+	<input type="submit" name="submit">
+</form>
+
+</body>
+</html>
