@@ -2,15 +2,22 @@
 <html>
 <head>
 	<title>Score Keeper Project</title>
+
+	<style type="text/css">
+		.winner {
+			color: green;
+		}
+	</style>
 </head>
 <body>
 
-<h1>0 to 0</h1>
-<p>Playing to: 7</p>
+<h1><span id="p1display">0</span> to <span id="p2display">0</span></h1>
+<p>Playing to: <span>5</span></p>
 <input type="number" name="">
-<button>Player 1</button>
-<button>Player 2</button>
-<button>Reset</button>
+<button id="p1">Player 1</button>
+<button id="p2">Player 2</button>
+<button id="reset">Reset</button>
 
+<script type="text/javascript" src="scoreKeeperProject.js"></script>
 </body>
 </html>
