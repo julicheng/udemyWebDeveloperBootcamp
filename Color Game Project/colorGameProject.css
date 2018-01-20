@@ -1,0 +1,21 @@
+body {
+	background-color: #232323;
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%; /*padding bottom 30 because div has no height*/ 
+	float: left;
+	margin: 1.66%;
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
